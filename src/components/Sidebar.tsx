@@ -5,7 +5,7 @@ export default function Sidebar({ activeTab, setActiveTab }: { activeTab: string
   return (
     <aside className={styles.sidebar}>
       <div className={styles.logo}>
-        <span role="img" aria-label="sparkles">✨</span>
+        <span role="img" aria-label="sparkles"></span>
         Kolamate
       </div>
       <nav className={styles.nav}>
